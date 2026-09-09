@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: telegram-receiver-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    healthCheckPath: /
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: BROADCAST_DELAY
+        value: "0.05"
+      - key: USER_COOLDOWN
+        value: "1.0"
+      - key: USERS_PAGE_SIZE
+        value: "20"
