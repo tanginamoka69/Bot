@@ -1,1 +1,22 @@
 
+{
+  "META": {
+    "APP_NAME": "LOADER",
+    "APP_VERSION_CODE": 1,
+    "VERSION_REASON": "you are using the outdated app please wait for online update.",
+    "UPDATE_URL": "https://t.me/Ayanokoji135"
+  },
+  "DATA": [
+    {
+      "URL": "https://reiofficialhax.elementfx.com/connect",
+      "NAME": "XAVVYY MOD",
+      "LOGO": "https://files.media2url.com/free/fbf450d75ab84e.png",
+      "DOWNLOAD": "https://reiofficialhax.elementfx.com/OnlineLibrei/libXavDeluxeN.so",
+      "GAME": "com.garena.game.codm",
+      "ARCH": "64bit",
+      "KEY": "20001112",
+      "TYPE": "CODM",
+      "STATUS": "ACTIVE"
+    }
+  ]
+}
